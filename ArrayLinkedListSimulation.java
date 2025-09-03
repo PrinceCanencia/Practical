@@ -61,3 +61,27 @@ public class ArrayLinkedListSimulation {
         System.out.println("Pop: " + list.pop());
     }
 }
+// Adding elements:
+// Current List: 10
+// Current List: 10 20
+// Current List: 10 20 30
+// Current List: 10 20 30 40
+// Current List: 10 20 30 40 50
+// Peek: 10
+
+// Poll: 10
+// Current List: 20 30 40 50
+
+// Pop: 50
+// Current List: 20 30 40
+// Removing all:
+// Polled: 20
+// Current List: 30 40
+// Polled: 30
+// Current List: 40
+// Polled: 40
+// List is empty.
+// Testing empty:
+// Peek: -1
+// Poll: -1
+// Pop: -1
